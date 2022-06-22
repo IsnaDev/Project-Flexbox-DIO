@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+</head>
+
+<body>
+    <p>row</p>
+    <p>order 0</p>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+
+    <p>order mix</p>
+    <div class="container">
+        <div class="item o-2">A</div>
+        <div class="item 0-1">B</div>
+        <div class="item 0-1">C</div>
+        <div class="item 0-3">D</div>
+    </div>
+   
+
+    <p>column</p>
+    <p>order 0</p>
+    <div class="container direction">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+
+    <p>order mix</p>
+    <div class="container direction">
+        <div class="item o-2">A</div>
+        <div class="item o-1">B</div>
+        <div class="item o-1">C</div>
+        <div class="item o-3">D</div>
+    </div>
+</body>
+<style>
+    .container {
+        display: flex;
+        border: 1px solid black;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .item {
+        flex: 1;font-size: 24px;
+        background-color: orange;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+        order: 0; /*zero é o padrão*/
+    }
+
+   .o-1{
+    order: 1;
+   }
+
+   .o-2{
+    order: 2;
+   }
+
+   .o-3{
+    order: 3;
+   }
+
+   .direction{
+    flex-direction: column;
+   }
+</style>
+
+</html>
