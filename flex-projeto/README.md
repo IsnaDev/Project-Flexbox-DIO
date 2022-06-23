@@ -1,4 +1,4 @@
-# Flex Turismo
+# Flex-Turismo
 Completed project of the course Positioning elements with Flexbox in CSS.
 
 <img src="./imagens/img1.png" alt="imagem-1"><br>
@@ -25,4 +25,4 @@ Completed project of the course Positioning elements with Flexbox in CSS.
     
 </table>
 
-[⬆ Voltar ao topo](#Convert-Money)<br>
+[⬆ Voltar ao topo](#Flex-Turismo)<br>
